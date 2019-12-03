@@ -1,0 +1,151 @@
+body
+{
+  background-color: black;
+  padding-right: 4.5%!important;
+  padding-left: 4.5%!important;
+  z-index: 0!important;
+
+  
+  
+}
+
+
+.gifs
+{
+  margin-bottom:10vw!important;
+  z-index: 0!important;
+  
+}
+
+
+@media (max-width: 800px) {
+  .cada_gif {
+      width:220px;
+      height:164px;
+      flex-direction: column!important;
+
+
+  }
+}
+
+
+
+.button2
+{
+  margin-left: auto!important;
+  margin-right: auto!important; 
+  display: block!important;
+
+  margin-top: 9vh!important;
+  margin-bottom: 10vh!important;
+ 
+  box-shadow: 0px 1px 16px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:5px 56px 15px 56px;
+	text-decoration:none;
+  text-shadow:0px 1px 10px #ffffff;
+  height: 6vh;
+}
+
+
+.button2:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+
+        
+/* ------------hover----------- */
+
+.picpic {
+  position: relative; /*deixa info contralizada*/
+  width:230px!important;
+  height:174px!important;
+  margin: 0!important;
+  float: left!important;
+  z-index:0!important;
+
+}
+
+
+.cada_gif
+{
+  width:230px;
+  height:174px;
+  margin: 0!important;
+  opacity: 1;
+  display: block; /*remover nao gerou mudanca aparente*/
+  transition: .5s ease;/*tempo para surgir hover*/
+  backface-visibility: hidden;/*remover nao gerou mudanca aparente*/
+  
+}
+
+.social {
+  transition: .5s ease;/*tempo para surgir info do hover*/
+  opacity: 0;/*info do hover permanece oculta antes de ser acionada*/
+  position: absolute; /*controla posiçao da info */
+  top: 88%;/*controla posiçao da info */
+  left: 21%;/*controla posiçao da info */
+  transform: translate(-5%, -95%);/*controla posiçao da info L e R*/
+  -ms-transform: translate(-50%, -50%); /*controla posiçao da info U e D*/
+  text-align: center;  /*remover nao gerou mudanca aparente mas talvez seja devido a pouca quntidade de info*/
+}
+
+
+.picpic:hover .cada_gif {
+  opacity: 0.2; /*diminui opacidade img */
+}
+
+
+.picpic:hover .social {
+  opacity: 1; /*aumenta opacidade da info */
+}
+
+.logos {
+  font-size: 3vw!important;
+  padding: 10px;
+  margin-right: 12px;
+  text-decoration: none!important;
+  z-index: 0!important;
+  
+}
+
+li {
+    margin-top: 0!important;
+}
+
+footer {
+  left: 0;
+  bottom: 0!important;
+  background-color: rgb(2, 2, 2)!important;
+  box-sizing: border-box;
+  z-index: 0!important;
+  height: 50vh;
+}
+
+main {
+  margin-bottom: 10%;
+}
+
+.logotipo{
+  width: 50%!important;
+  z-index: 0!important;
+  margin-right: auto!important;
+  margin-left: auto!important;
+  margin-top: 40%;
+  display: block!important;
+
+}
+
