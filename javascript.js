@@ -1,5 +1,3 @@
-
-
 // url Async requesting function
 function httpGetAsync(theUrl, callback)
 {
@@ -32,6 +30,26 @@ function tenorCallback_randomsearch(responsetext)
 
     top_10_gifs = response_objects["results"];
 
+	var caller = $("#emcee"),
+    box = $("#box");
+
+function foo()
+{
+    var randX = Math.floor(Math.random() * (window.innerWidth - 100));
+    var randY = Math.floor(Math.random() * (window.innerHeight - 100));
+    console.log([randX, randY]);
+    caller.stop().animate({"left": randX + "px", "top": randY + "px"});
+
+}
+
+$(document).ready(function() {
+    
+    caller.on('mouseenter', foo);
+    caller.on('click', function(){
+        alert("Não foi dessa vez, tente novamente");
+    });
+    
+});
     // load the GIFs -- for our example we will load the first GIFs preview size (nanogif) and share size (tinygif)
 
    //COLOCAR AQUI OS CDIGOS QUE ESTÃO COM O JOÃO
