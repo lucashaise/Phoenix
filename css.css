@@ -73,7 +73,7 @@ body
   position: relative; /*deixa info contralizada*/
   width:230px!important;
   height:174px!important;
-  margin: 0!important;
+  margin: 2!important;
   float: left!important;
   z-index:0!important;
 
@@ -84,7 +84,7 @@ body
 {
   width:230px;
   height:174px;
-  margin: 0!important;
+  margin: 2!important;
   opacity: 1;
   display: block; /*remover nao gerou mudanca aparente*/
   transition: .5s ease;/*tempo para surgir hover*/
