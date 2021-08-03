@@ -93,6 +93,8 @@ body
 }
 
 .social {
+  width:230px;
+  height:174px;
   transition: .5s ease;/*tempo para surgir info do hover*/
   opacity: 0;/*info do hover permanece oculta antes de ser acionada*/
   position: absolute; /*controla posiçao da info */
