@@ -97,7 +97,7 @@ body
   height:174px;
   transition: .5s ease;/*tempo para surgir info do hover*/
   opacity: 0;/*info do hover permanece oculta antes de ser acionada*/
-  position: absolute; /*controla posiçao da info */
+  position: relative; /*controla posiçao da info */
   top: 10%;/*controla posiçao da info */
   left: 21%;/*controla posiçao da info */
   transform: translate(-50%, -50%);/*controla posiçao da info L e R*/
@@ -117,7 +117,7 @@ body
 
 .logos {
   font-size: 3vw!important;
-  padding: 10px;
+  padding: 2vw;
   margin-right: 12px;
   text-decoration: none!important;
   z-index: 0!important;
